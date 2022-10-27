@@ -57,10 +57,6 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      <!-- <footer class="page__meta">
-        {% if page.share %}{% include social-share.html %}{% endif %}
-      </footer> -->
-
       <h4 class="page__meta-title"><span style="color:#fcd14f;">{{ page.categories[0] }}</span> <span>카테고리 내 다른 글 보러가기</span></h4>
       {% include post_pagination.html %}
     </div>
