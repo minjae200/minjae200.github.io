@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "느릿느릿 나무늘보"
-  avatar           : /assets/images/sloth.png"
+  avatar           : "https://github.com/minjae200/ImageRepo/blob/master/webOSIDE.png"
   bio              : "Slowly and Slowly"
   location         : "Seoul, Rep. of Korea"
   email            :
