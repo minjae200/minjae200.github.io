@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "느릿느릿 나무늘보"
-  avatar           : /assets/images/sloth.jpg"
+  avatar           : "/assets/images/sloth.jpg"
   bio              : "Slowly and Slowly"
   location         : "Seoul, Rep. of Korea"
   email            :
