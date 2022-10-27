@@ -35,15 +35,14 @@ layout: default
           </h1>{% endif %}
           {% include page__meta.html %}
         </header>
-
-        <div class=""page__meta">
-          {% if site.data.ui-text[site.locale].meta_label %}
-            <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-          {% endif %}
-          {% include page__taxonomy.html %}
-          {% include page__date.html %}
-        </div>
       {% endunless %}
+      <div class=""page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+        {% include page__date.html %}
+      </div>
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
