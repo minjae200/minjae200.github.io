@@ -25,7 +25,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "design pattern" %}
+                    {% if category[0] == "design_pattern" %}
                         <li><a href="/categories/design_pattern" class="">디자인 패턴 with C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
