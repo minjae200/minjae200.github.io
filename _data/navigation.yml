@@ -6,8 +6,8 @@ main:
     #url: /about/
   - title: "카테고리"
     url: /categories/
-  #- title: "Tag"
-    #url: /tags/
+  - title: "태그"
+    url: /tags/
   #- title: "Post by Year"
     #url: /year-archive/
  
