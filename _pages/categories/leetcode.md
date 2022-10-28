@@ -7,5 +7,5 @@ custom_sidebar: true
 ---
 
 
-{% assign posts = site.categories.leetcode %}
+{% assign posts = site.categories.Leetcode %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
