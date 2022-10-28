@@ -1,15 +1,14 @@
 ---
-title:  "디자인패턴 12" 
+title:  "[행위 패턴] Template Method" 
 
 categories:
   - Design Pattern
 tags:
-  - [design]
+  - [behavioral pattern]
 
 toc: true
 toc_sticky: true
 ---
 
-# Third Post
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
