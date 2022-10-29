@@ -62,8 +62,8 @@
         <span class="nav__sub-title">기타</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Editor" %}
-                        <li><a href="/categories/editor" class="">에디터 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Markup" %}
+                        <li><a href="/categories/markup" class="">에디터 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
