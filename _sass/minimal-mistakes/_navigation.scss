@@ -174,7 +174,7 @@
     text-align: center;
     text-decoration: none;
     // color: $muted-text-color;
-    color: rgb(43, 43, 43) !important;
+    color: #ffffff !important;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
@@ -185,7 +185,7 @@
     }
 
     &:hover {
-      @include yiq-contrasted(#ffffff);
+      @include yiq-contrasted(#000000);
     }
 
     &:first-child {
