@@ -182,14 +182,10 @@
       font-family: $sans-serif;
       color:#ffd861;
       font-weight: bold;
-
-      &:hover {
-        @include yiq-contrasted(#ffd861);
-      }
     }
 
     &:hover {
-      @include yiq-contrasted(#ffffff);
+      color: #000000;
     }
 
     &:first-child {
