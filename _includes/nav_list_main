@@ -63,7 +63,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Markup" %}
-                        <li><a href="/categories/markup" class="">에디터 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/markup" class="">Markup ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
