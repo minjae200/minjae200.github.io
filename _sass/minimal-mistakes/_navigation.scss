@@ -182,6 +182,7 @@
     .prev_next {
       font-family: $sans-serif;
       color:#ffd861;
+      font-weight: bold;
 
       &:hover {
         @include yiq-contrasted(#ffd861);
@@ -189,7 +190,7 @@
     }
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted(#ffffff);
     }
 
     &:first-child {
