@@ -1,5 +1,5 @@
 ---
-title: "에디터"
+title: "Markup Language"
 layout: archive
 permalink: categories/markup
 author_profile: true

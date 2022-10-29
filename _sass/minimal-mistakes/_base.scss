@@ -126,6 +126,7 @@ blockquote {
 /* links */
 
 a {
+  font-weight: bold;
   &:focus {
     @extend %tab-focus;
   }
