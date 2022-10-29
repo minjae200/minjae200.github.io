@@ -185,7 +185,7 @@
     }
 
     &:hover {
-      color: #000000;
+      @include yiq-contrasted(#ffffff);
     }
 
     &:first-child {
