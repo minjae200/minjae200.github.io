@@ -350,7 +350,7 @@ body {
   background-color: #4D5357;
   font-family: $sans-serif;
   // color: $primary-color;
-  color: #fff;
+  color: $text-color;
 
   &:hover {
     text-decoration: none;
@@ -369,7 +369,7 @@ body {
   background-color: #4D5357;
   font-family: $sans-serif;
   // color: mix(#fff, $primary-color, 2%);
-  color: #fff;
+  color: $text-color;
 
   &:hover {
     text-decoration: none;
