@@ -142,8 +142,9 @@ body {
   :not(pre) > code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    font-size: 1.8em;
-    background: $code-background-color;
+    font-size: 1.0rem;
+    background: $inline-code-background-colo !important;
+    color: #FFBF00 !important;
     border-radius: $border-radius;
 
     &::before,
