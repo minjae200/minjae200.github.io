@@ -4,7 +4,7 @@ title:  "[행위 패턴] Template Method"
 categories:
   - Design Pattern
 tags:
-  - [behavioral pattern]
+  - [behavioral_pattern]
 
 toc: true
 toc_sticky: true
