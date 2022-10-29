@@ -143,9 +143,10 @@ body {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: 1.0em;
-    background: #FFBF00 !important;
+    background: $notice-color;
     color: #FFBF00 !important;
     border-radius: $border-radius;
+    font-weight: bold;
 
     &::before,
     &::after {
