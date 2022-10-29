@@ -351,11 +351,9 @@ body {
   font-family: $sans-serif;
   // color: $primary-color;
   color: $text-color !important;
-  font-weight: bold;
-
   &:hover {
     text-decoration: none;
-    color: mix(#00adb5, $text-color, 40%); /* 커서 댈 때 색깔 */
+    color: mix(#00adb5, $text-color, 40%) !important; /* 커서 댈 때 색깔 */
   }
 }
 
@@ -374,7 +372,7 @@ body {
 
   &:hover {
     text-decoration: none;
-    color: mix(#00adb5, $text-color, 40%); /* 커서 댈 때 색깔 */
+    color: mix(#00adb5, $text-color, 40%) !important; /* 커서 댈 때 색깔 */
   }
 }
 
