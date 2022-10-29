@@ -182,6 +182,10 @@
     .prev_next {
       font-family: $sans-serif;
       color:#ffd861;
+
+      &:hover {
+        @include yiq-contrasted(#ffd861);
+      }
     }
 
     &:hover {
