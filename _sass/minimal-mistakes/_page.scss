@@ -72,6 +72,7 @@ body {
   margin-top: 0;
   line-height: 1;
   font-size: $type-size-2;
+  color: mix(#fff, #FFBF00, 40%);
 
   a {
     color: $text-color;
@@ -218,7 +219,7 @@ body {
     .page__meta,
     .page__lead,
     .btn {
-      color: rgb(247, 3, 3);
+      color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
