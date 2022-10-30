@@ -506,6 +506,7 @@
   font-size: 1.25rem;
 
   a {
+    font-size: $type-size-3;
     color: inherit;
   }
 
@@ -596,10 +597,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
