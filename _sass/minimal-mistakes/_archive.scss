@@ -431,18 +431,6 @@
       margin-top: 0.25em;
       font-size: 1em;
     }
-
-    &-item {
-      a:link {
-        color: mix(#ffffff, $text-color, 40%);
-      }
-      a:visited {
-        color: mix(#ffffff, $text-color, 40%);
-      }
-      a:hover {
-        color: #ffffff;
-      }
-    }
   }
 
   .feature__item,
@@ -450,6 +438,18 @@
   .feature__item--center,
   .feature__item--right {
     font-size: 1em;
+  }
+}
+
+.archive-item {
+  a:link {
+    color: mix(#ffffff, $text-color, 40%);
+  }
+  a:visited {
+    color: mix(#ffffff, $text-color, 40%);
+  }
+  a:hover {
+    color: $text-color;
   }
 }
 
