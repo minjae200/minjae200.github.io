@@ -442,8 +442,17 @@
 }
 
 .archive-item {
-  a {
-    font-weight: bold;
+  a:link {
+    color : mix($primary-color, $text-color, 60%);
+  }
+  a:visited {
+    color : mix($primary-color, $text-color, 60%);
+  }
+  a:hover {
+    color : $primary-color;
+  }
+  a:active {
+    color : mix($primary-color, $text-color, 40%);
   }
 }
 
