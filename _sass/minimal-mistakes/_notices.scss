@@ -75,41 +75,36 @@
 /* Default notice */
 
 .notice {
-  font-size: $type-size-3;
   @include notice($light-gray);
 }
 
 /* Primary notice */
 
 .notice--primary {
-  font-size: $type-size-3;
   @include notice($primary-color);
 }
 
 /* Info notice */
 
 .notice--info {
-  font-size: $type-size-3;
   @include notice($info-color);
+  font-size: 50px;
 }
 
 /* Warning notice */
 
 .notice--warning {
-  font-size: $type-size-3;
   @include notice($warning-color);
 }
 
 /* Success notice */
 
 .notice--success {
-  font-size: $type-size-3;
   @include notice($success-color);
 }
 
 /* Danger notice */
 
 .notice--danger {
-  font-size: $type-size-3;
   @include notice($danger-color);
 }
