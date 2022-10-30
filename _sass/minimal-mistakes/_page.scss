@@ -73,7 +73,7 @@ body {
   line-height: 1;
   font-size: $type-size-2;
   color: mix(#fff, #FFBF00, 35%);
-  float: left;
+  float: left !important;
 
   a {
     color: $text-color;
