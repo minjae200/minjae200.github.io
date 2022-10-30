@@ -292,3 +292,4 @@ defaults:
       share: true
       related: true
       custom_sidebar: true
+      mathjax: true
