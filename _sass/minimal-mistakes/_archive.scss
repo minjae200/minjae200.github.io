@@ -68,16 +68,16 @@
 
 
   a:link {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
   a:visited {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
   a:hover {
-    color : mix($primary-color, $text-color, 80%);
+    color : mix($primary-color, $text-color, 60%);
   }
   a:active {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
 }
 
@@ -457,16 +457,16 @@
 
 .archive-item {
   a:link {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
   a:visited {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
   a:hover {
-    color : mix($primary-color, $text-color, 80%);
+    color : mix($primary-color, $text-color, 60%);
   }
   a:active {
-    color : mix($primary-color, $text-color, 45%);
+    color : mix($primary-color, $text-color, 30%);
   }
 }
 
