@@ -508,7 +508,7 @@
   a {
     font-size: $type-size-4;
     color: inherit;
-    color: mix(#fff, $text-color, 80%);
+    color: mix(#ffffff, $text-color, 50%);
   }
 
   .active {
@@ -564,6 +564,7 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
   margin-top: 5px;
+  color: #ffffff;
 }
 
 /*
