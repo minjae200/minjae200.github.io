@@ -43,7 +43,7 @@
     color: $muted-text-color !important;
 
     a {
-      color : mix($primary-color, $text-color, 45%);
+      color : mix($primary-color, $text-color, 45%) !important;
     }
   }
 }
