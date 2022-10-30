@@ -42,19 +42,6 @@
     margin-top: 0.5em;
     color: $muted-text-color !important;
   }
-
-  a:link {
-    color : mix($primary-color, $text-color, 45%);
-  }
-  a:visited {
-    color : mix($primary-color, $text-color, 45%);
-  }
-  a:hover {
-    color : mix($primary-color, $text-color, 80%);
-  }
-  a:active {
-    color : mix($primary-color, $text-color, 45%);
-  }
 }
 
 .archive__item-title {
@@ -77,6 +64,24 @@
 
   a + a {
     opacity: 0.5;
+  }
+
+
+  a:link {
+    // color : mix($primary-color, $text-color, 45%);
+    color: #000;
+  }
+  a:visited {
+    // color : mix($primary-color, $text-color, 45%);
+    color: #000;
+  }
+  a:hover {
+    // color : mix($primary-color, $text-color, 80%);
+    color: #000;
+  }
+  a:active {
+    // color : mix($primary-color, $text-color, 45%);
+    color: #000;
   }
 }
 
