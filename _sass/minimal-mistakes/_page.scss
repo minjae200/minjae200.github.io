@@ -73,7 +73,8 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    // color: $text-color;
+    color: $primary-color;
     text-decoration: none;
   }
 
@@ -213,10 +214,7 @@ body {
       }
     }
 
-    .page__title {
-      color: #00adb5;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
-    }
+    .page__title,
     .page__meta,
     .page__lead,
     .btn {
