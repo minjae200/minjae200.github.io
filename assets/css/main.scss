@@ -31,13 +31,13 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 //   }
 // }
 
-// .highlight {
-//   font-family: $monospace;
-//   font-size: $type-size-4-5;
-// }
+.highlight {
+  font-family: $monospace;
+  font-size: $type-size-4-5;
+}
 
-// .language-plaintext {
-//   font-family: $monospace;
-//   font-size: $type-size-5;
-//   background: #c0ffee;
-// }
+.language-plaintext {
+  font-family: $monospace;
+  font-size: $type-size-5;
+  background: #c0ffee;
+}
