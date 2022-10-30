@@ -443,16 +443,16 @@
 
 .archive-item {
   a:link {
-    color : mix($primary-color, $text-color, 60%);
+    color : mix($primary-color, $text-color, 45%);
   }
   a:visited {
-    color : mix($primary-color, $text-color, 60%);
+    color : mix($primary-color, $text-color, 45%);
   }
   a:hover {
-    color : $primary-color;
+    color : mix($primary-color, $text-color, 80%);
   }
   a:active {
-    color : mix($primary-color, $text-color, 40%);
+    color : mix($primary-color, $text-color, 45%);
   }
 }
 
