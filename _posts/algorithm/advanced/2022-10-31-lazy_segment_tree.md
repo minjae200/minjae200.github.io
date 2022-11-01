@@ -1,5 +1,7 @@
 ---
-title: "늦게 갱신되는 세그먼트 트리 (Segment Tree with lazy propagation)" 
+title: "늦게 갱신되는 세그먼트 트리"
+excerpt: "Segment Tree with lazy propagation"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

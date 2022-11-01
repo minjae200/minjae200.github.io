@@ -1,5 +1,7 @@
 ---
-title: "유니온-파인드 (Union-Find)" 
+title: "유니온-파인드"
+excerpt: "Union-Find"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

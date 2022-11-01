@@ -1,5 +1,7 @@
 ---
-title: "컨벡스 헐 (Convex Hull)" 
+title: "컨벡스 헐"
+excerpt: "Convex Hull"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

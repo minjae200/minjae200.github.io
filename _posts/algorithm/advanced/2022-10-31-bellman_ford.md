@@ -1,5 +1,7 @@
 ---
-title: " 최단 경로 탐색 - 벨만 포드 (Bellman-Ford)" 
+title: " 최단 경로 탐색 - 벨만 포드" 
+excerpt: "Bellman-Ford"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

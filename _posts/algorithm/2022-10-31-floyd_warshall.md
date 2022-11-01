@@ -1,5 +1,7 @@
 ---
-title: "최단 경로 탐색 - 플로이드 와샬 (Floyd-Warshall)" 
+title: "최단 경로 탐색 - 플로이드 와샬" 
+excerpt: "Floyd-Warshall"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

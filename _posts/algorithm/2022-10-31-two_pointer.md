@@ -1,5 +1,7 @@
 ---
-title: "투 포인터 (Two-Pointer)" 
+title: "투 포인터"
+excerpt: "Two Pointer"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

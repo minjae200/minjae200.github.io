@@ -1,5 +1,7 @@
 ---
-title: "최소 컷 (Minimum Cut)" 
+title: "최소 컷"
+excerpt: "Minimum Cut"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

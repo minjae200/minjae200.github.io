@@ -1,5 +1,7 @@
 ---
-title: "네트워크 유량 (Network Flow)" 
+title: "네트워크 유량"
+excerpt: "Network Flow"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

@@ -1,5 +1,7 @@
 ---
-title: "고속 푸리에 변환 (Fast Fourier Transform)" 
+title: "고속 푸리에 변환"
+excerpt: "Fast Fourier Transform"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

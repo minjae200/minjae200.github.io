@@ -1,5 +1,7 @@
 ---
-title: "페르마의 소정리 (Fermat's Little Theorem)" 
+title: "페르마의 소정리"
+excerpt: "Fermat's Little Theorem"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

@@ -1,5 +1,7 @@
 ---
-title: "이분 매칭 (Bipartite Matching)" 
+title: "이분 매칭" 
+excerpt: "Bipartite Matching"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

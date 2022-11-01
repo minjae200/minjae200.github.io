@@ -1,5 +1,7 @@
 ---
-title: "중국인의 나머지 정리 (Chinese Remainder Theorem)" 
+title: "중국인의 나머지 정리"
+excerpt: "Chinese Remainder Theorem"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

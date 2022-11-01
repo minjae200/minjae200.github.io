@@ -1,5 +1,7 @@
 ---
-title:  "브루트 포스 (Broute Force)" 
+title: "브루트 포스"
+excerpt: "Brute Force"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

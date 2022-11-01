@@ -1,5 +1,7 @@
 ---
-title: "세그먼트 트리 (Segment Tree)" 
+title: "세그먼트 트리"
+excerpt: "Segment Tree"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

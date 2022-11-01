@@ -1,5 +1,7 @@
 ---
-title:  "다이나믹 프로그래밍 (DP)" 
+title: "다이나믹 프로그래밍"
+excerpt: "Dynamic Programming"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm

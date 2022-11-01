@@ -1,5 +1,7 @@
 ---
-title: "플러드 필 (Flood Fill)" 
+title: "플러드 필" 
+excerpt: "Flood Fill"
+last_modified_at : 22.11.01
 
 categories:
   - Algorithm
