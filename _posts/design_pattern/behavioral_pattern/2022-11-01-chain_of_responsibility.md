@@ -1,6 +1,6 @@
 ---
-title: "템플릿 메소드 패턴"
-excerpt: "Template Method Pattern"
+title: "역할 사슬 패턴"
+excerpt: "Chain Of Responssibility Pattern"
 last_modified_at : 22.11.01
 
 categories:

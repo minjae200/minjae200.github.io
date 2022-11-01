@@ -1,12 +1,12 @@
 ---
-title: "템플릿 메소드 패턴"
-excerpt: "Template Method Pattern"
+title: "프로토타입 패턴"
+excerpt: "Prototype Pattern"
 last_modified_at : 22.11.01
 
 categories:
   - Design Pattern
 tags:
-  - [Behavioral Pattern]
+  - [Creational Pattern]
 
 toc: true
 toc_sticky: true

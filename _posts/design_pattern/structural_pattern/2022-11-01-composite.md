@@ -1,12 +1,12 @@
 ---
-title: "템플릿 메소드 패턴"
-excerpt: "Template Method Pattern"
+title: "컴포지트 패턴"
+excerpt: "Composite Pattern"
 last_modified_at : 22.11.01
 
 categories:
   - Design Pattern
 tags:
-  - [Behavioral Pattern]
+  - [Structural Pattern]
 
 toc: true
 toc_sticky: true
