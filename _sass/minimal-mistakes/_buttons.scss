@@ -30,7 +30,7 @@
 
   /* button colors */
   $buttoncolors:
-  (primary, $primary-color),
+  (primary, mix($primary-color, $text-color, 60%)),
   (inverse, #fff),
   (light-outline, transparent),
   (success, $success-color),
@@ -50,13 +50,16 @@
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
       }
+      @if ($buttoncolor == primary) {
+        color: #fff;
+      }
 
       &:visited {
         @include yiq-contrasted($color);
       }
 
       &:hover {
-        @include yiq-contrasted(mix(#000, $color, 20%));
+        @include yiq-contrasted(mix(#fff, $color, 20%));
       }
     }
   }

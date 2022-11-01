@@ -1,7 +1,6 @@
 ---
 title: "아호코라식"
 excerpt: "Aho-Corasick"
-data: 22.10.01
 last_modified_at : 22.11.01
 
 categories:
