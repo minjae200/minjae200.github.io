@@ -509,6 +509,11 @@
     font-size: $type-size-4;
     color: inherit;
     color: mix(#ffffff, $text-color, 40%);
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-position: under;
+    }
   }
 
   .active {
