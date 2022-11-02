@@ -80,7 +80,7 @@
       text-align: center;
       text-decoration: none;
       color: $muted-text-color;
-      border: 1px solid mix(#000, $border-color, 25%);
+      border: 1px solid mix(#fff, $border-color, 25%);
       border-radius: 0;
 
       &:hover {
@@ -89,7 +89,7 @@
 
       &.current,
       &.current.disabled {
-        color: #fff;
+        color: #000;
         background: $primary-color;
       }
 
@@ -174,18 +174,24 @@
     text-align: center;
     text-decoration: none;
     // color: $muted-text-color;
-    color: #ffffff !important;
-    border: 1px solid mix(#000, $border-color, 25%);
+    color: $primary-color !important;
+    border: 1px solid mix(#fff, $border-color, 10%);
     border-radius: $border-radius;
 
     .prev_next {
       font-family: $sans-serif;
-      color:#ffd861;
+      color: $primary-color;
       font-weight: bold;
     }
 
     &:hover {
-      @include yiq-contrasted(#000000);
+      @include yiq-contrasted($primary-color);
+      color: #000 !important;
+    }
+
+    &:hover .prev_next
+    {
+      color: #000 !important;
     }
 
     &:first-child {
@@ -509,10 +515,10 @@
     font-size: $type-size-4;
     color: inherit;
     color: mix(#ffffff, $text-color, 40%);
-
     &:hover {
       text-decoration: underline;
       text-underline-position: under;
+      text-decoration-thickness: 2px;
     }
   }
 
@@ -564,12 +570,20 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-4;
+  font-size: $type-size-3-4;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
   margin-top: 15px;
-  color: mix(#fff, #FFBF00, 35%);
+  // color: mix(#fff, #FFBF00, 35%);
+  color: $primary-color;
+}
+
+.nav__category {
+  color: $primary-color;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 /*
@@ -586,7 +600,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: #000;
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;

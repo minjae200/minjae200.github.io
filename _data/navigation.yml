@@ -4,9 +4,9 @@ main:
     url: /index.html
   #- title: "About"
     #url: /about/
-  - title: "카테고리"
+  - title: "Categories"
     url: /categories/
-  - title: "태그"
+  - title: "Tags"
     url: /tags/
   #- title: "Post by Year"
     #url: /year-archive/

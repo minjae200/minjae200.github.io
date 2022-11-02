@@ -464,6 +464,8 @@
   }
   a:hover {
     color : mix($primary-color, $text-color, 60%);
+    text-decoration: underline;
+    text-underline-position: under;
   }
   a:active {
     color : mix($primary-color, $text-color, 40%);

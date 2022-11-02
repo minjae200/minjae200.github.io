@@ -19,14 +19,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="">📖 C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Design Pattern" %}
-                        <li><a href="/categories/design_pattern" class="">디자인 패턴 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/design_pattern" class="">📖 디자인 패턴 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -34,28 +34,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">이론 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">📖 이론 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Acmicpc" %}
-                        <li><a href="/categories/acmicpc" class="">BOJ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/acmicpc" class="">📖 BOJ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">📖 Programmers ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Leetcode" %}
-                        <li><a href="/categories/leetcode" class="">LeetCode ({{category[1].size}})</a></li>
+                        <li><a href="/categories/leetcode" class="">📖 LeetCode ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -63,7 +63,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Markup" %}
-                        <li><a href="/categories/markup" class="">Markup ({{category[1].size}})</a></li>
+                        <li><a href="/categories/markup" class="">📖 Markup ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
