@@ -187,11 +187,15 @@
     &:hover {
       @include yiq-contrasted($primary-color);
       color: #000 !important;
+      text-decoration: overline underline;
+      text-underline-position: under;
+      text-decoration-color: $link-color;
+      text-decoration-thickness: 2px;
     }
 
     &:hover .prev_next
     {
-      color: #000 !important;
+      color: $link-color !important;
     }
 
     &:first-child {
