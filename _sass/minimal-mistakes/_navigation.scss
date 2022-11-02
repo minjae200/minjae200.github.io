@@ -185,17 +185,16 @@
     }
 
     &:hover {
-      @include yiq-contrasted($primary-color);
-      color: #000 !important;
+      @include yiq-contrasted(mix(#fff, $background-color, 10%));
       text-decoration: overline underline;
       text-underline-position: under;
-      text-decoration-color: $link-color;
+      text-decoration-color: #FFBF00;
       text-decoration-thickness: 2px;
     }
 
     &:hover .prev_next
     {
-      color: $link-color !important;
+      color: #FFBF00 !important;
     }
 
     &:first-child {
