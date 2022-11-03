@@ -390,7 +390,7 @@ body {
   border-radius: $border-radius;
   background-color: $toxonomy-item-color;
   font-family: $sans-serif;
-  color: mix(#000, $text-color, 10%) !important;
+  color: mix(#000, $text-color, 5%) !important;
 
   // &:hover {
   //   text-decoration: none;
