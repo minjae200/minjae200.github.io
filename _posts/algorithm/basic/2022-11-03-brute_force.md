@@ -18,10 +18,10 @@ toc_sticky: true
 
 |문제 링크|난이도|설명|문제 풀이|
 |:---|:---|:---|:---|
-|[[BOJ] 2231. 분해합](https://www.acmicpc.net/problem/2231)|⭐| 전형적인 브루트 포스 문제 |[📖 풀이](/acmicpc/2231)|
-|[[BOJ] 1182. 부분수열의 합](https://www.acmicpc.net/problem/1182)|⭐| 전형적인 브루트 포스 문제 |[📖 풀이](/acmicpc/1182)|
+|[[BOJ] 2231. 분해합](https://www.acmicpc.net/problem/2231)|⭐| 수학이 약간 포함된 몸풀기 문제 |[📖 풀이](/acmicpc/2231)|
+|[[BOJ] 1182. 부분수열의 합](https://www.acmicpc.net/problem/1182)|⭐| 순열 조합 문제 |[📖 풀이](/acmicpc/1182)|
 |[[BOJ] 3085. 사탕게임](https://www.acmicpc.net/problem/3085)|⭐⭐| 전형적인 브루트 포스 문제 |[📖 풀이](/acmicpc/3085)|
-|[[BOJ] 1107. 리모컨](https://www.acmicpc.net/problem/1107)|⭐⭐| 전형적인 브루트 포스 문제 |[📖 풀이](/acmicpc/1107)|
+|[[BOJ] 1107. 리모컨](https://www.acmicpc.net/problem/1107)|⭐⭐| 범위를 잘 생각해서 접근해야 하는 문제 |[📖 풀이](/acmicpc/1107)|
 
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
