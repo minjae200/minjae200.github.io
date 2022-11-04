@@ -1,5 +1,5 @@
 ---
-title: "디자인 패턴 (with C++)"
+title: "디자인 패턴"
 layout: archive
 permalink: categories/design_pattern
 author_profile: true
