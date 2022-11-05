@@ -37,6 +37,8 @@
         {% assign design = category[1].size %}
     {% elsif category[0] == "Markup" %}
         {% assign markup = category[1].size %}
+    {% elsif category[0] == "Docker" %}
+        {% assign docker = category[1].size %}
     {% endif %}
 {% endfor %}
 
@@ -108,6 +110,9 @@
             {% endif %}
             {% if markup %}
                 <ul><li><a href="/categories/markup" class="">📖 Markup ({{markup}})</a></li></ul>
+            {% endif %}
+            {% if docker %}
+                <ul><li><a href="/categories/docker" class="">📖 Docker ({{docker}})</a></li></ul>
             {% endif %}
       </li>
   </ul>

@@ -1,11 +1,11 @@
 ---
-title: "라이브러리"
+title: "JavaScript"
 layout: archive
-permalink: categories/library
+permalink: categories/javascript
 author_profile: true
 custom_sidebar: true
 ---
 
 
-{% assign posts = site.categories.Library %}
+{% assign posts = site.categories.JavaScript %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
