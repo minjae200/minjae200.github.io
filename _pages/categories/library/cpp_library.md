@@ -6,5 +6,5 @@ author_profile: true
 custom_sidebar: true
 ---
 
-{% assign posts = site.categories.[C++ Library] %}
+{% assign posts = site.categories.['C++ Library'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
