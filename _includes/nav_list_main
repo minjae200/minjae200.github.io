@@ -2,6 +2,45 @@
 
 {% assign sum = site.posts | size %}
 
+{% for category in site.categories %}
+    {% if category[0] == "C++" %}
+        {% assign cpp = category[1].size %}
+    {% elsif category[0] == "Python" %}
+        {% assign python = category[1].size %}
+    {% elsif category[0] == "JavaScript" %}
+        {% assign javascript = category[1].size %}
+    {% elsif category[0] == "Java" %}
+        {% assign java = category[1].size %}
+    {% elsif category[0] == "Kotlin" %}
+        {% assign kotlin = category[1].size %}
+    {% elsif category[0] == "Go" %}
+        {% assign go = category[1].size %}
+    {% elsif category[0] == "C Library" %}
+        {% assign c_library = category[1].size %}
+    {% elsif category[0] == "C++ Library" %}
+        {% assign cpp_library = category[1].size %}
+    {% elsif category[0] == "Python Library" %}
+        {% assign python_library = category[1].size %}
+    {% elsif category[0] == "JavaScript Library" %}
+        {% assign javascript_library = category[1].size %}
+    {% elsif category[0] == "Java Library" %}
+        {% assign java_library = category[1].size %}
+    {% elsif category[0] == "Algorithm" %}
+        {% assign algorithm = category[1].size %}
+    {% elsif category[0] == "Acmicpc" %}
+        {% assign acmicpc = category[1].size %}
+    {% elsif category[0] == "Programmers" %}
+        {% assign programmers = category[1].size %}
+    {% elsif category[0] == "Leetcode" %}
+        {% assign leetcode = category[1].size %}
+    {% elsif category[0] == "Design Pattern" %}
+        {% assign design = category[1].size %}
+    {% elsif category[0] == "Markup" %}
+        {% assign markup = category[1].size %}
+    {% endif %}
+{% endfor %}
+
+
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
@@ -12,61 +51,64 @@
       </li> -->
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">C/C++</span>
+        <span class="nav__sub-title">언어</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">📖 C++ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Design Pattern" %}
-                        <li><a href="/categories/design_pattern" class="">📖 디자인 패턴 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+            <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+            {% if cpp %}
+                <ul><li><a href="/categories/cpp" class="">📖 C++ ({{cpp}})</a></li></ul>
+            {% endif %}
+            {% if python %}
+                <ul><li><a href="/categories/python" class="">📖 Python ({{python}})</a></li></ul>
+            {% endif %}
+            {% if java %}
+                <ul><li><a href="/categories/java" class="">📖 Java ({{java}})</a></li></ul>
+            {% endif %}
+            {% if javascript %}
+                <ul><li><a href="/categories/javascript" class="">📖 JavaScript ({{javascript}})</a></li></ul>
+            {% endif %}
+            {% if kotlin %}
+                <ul><li><a href="/categories/kotlin" class="">📖 Kotlin ({{kotlin}})</a></li></ul>
+            {% endif %}
+            {% if go %}
+                <ul><li><a href="/categories/go" class="">📖 Go ({{go}})</a></li></ul>
+            {% endif %}
+        <span class="nav__sub-title">라이브러리</span>
+            {% if c_library %}
+                <ul><li><a href="/categories/c_library" class="">📖 C Library ({{c_library}})</a></li></ul>
+            {% endif %}
+            {% if cpp_library %}
+                <ul><li><a href="/categories/cpp_library" class="">📖 C++ Library ({{cpp_library}})</a></li></ul>
+            {% endif %}
+            {% if python_library %}
+                <ul><li><a href="/categories/python_library" class="">📖 Python Library ({{python_library}})</a></li></ul>
+            {% endif %}
+            {% if java_library %}
+                <ul><li><a href="/categories/java_library" class="">📖 Java Library ({{java_library}})</a></li></ul>
+            {% endif %}
+            {% if javascript_library %}
+                <ul><li><a href="/categories/javascript_library" class="">📖 JavaScript Library ({{javascript_library}})</a></li></ul>
+            {% endif %}
         <span class="nav__sub-title">알고리즘</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">📖 이론 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Acmicpc" %}
-                        <li><a href="/categories/acmicpc" class="">📖 BOJ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">📖 Programmers ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Leetcode" %}
-                        <li><a href="/categories/leetcode" class="">📖 LeetCode ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% if algorithm %}
+                <ul><li><a href="/categories/algorithm" class="">📖 이론 ({{algorithm}})</a></li></ul>
+            {% endif %}
+            {% if acmicpc %}
+                <ul><li><a href="/categories/acmicpc" class="">📖 BOJ ({{acmicpc}})</a></li></ul>
+            {% endif %}
+            {% if programmers %}
+                <ul><li><a href="/categories/programmers" class="">📖 Programmers ({{programmers}})</a></li></ul>
+            {% endif %}
+            {% if leetcode %}
+                <ul><li><a href="/categories/leetcode" class="">📖 LeetCode ({{leetcode}})</a></li></ul>
+            {% endif %}
         <span class="nav__sub-title">기타</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Markup" %}
-                        <li><a href="/categories/markup" class="">📖 Markup ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% if design %}
+                <ul><li><a href="/categories/design_pattern" class="">📖 디자인 패턴 ({{design}})</a></li></ul>
+            {% endif %}
+            {% if markup %}
+                <ul><li><a href="/categories/markup" class="">📖 Markup ({{markup}})</a></li></ul>
+            {% endif %}
       </li>
   </ul>
 </nav>
