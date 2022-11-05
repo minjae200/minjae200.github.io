@@ -15,7 +15,7 @@ toc_sticky: true
 {: .notice--info}  
 
 ## Brute Force?
-- [종만북](https://product.kyobobook.co.kr/detail/S000001032946)에서는 <u>무식하게 푼다</u>로 정의하고있음.
+- [📖 종만북](https://product.kyobobook.co.kr/detail/S000001032946)에서는 <u>무식하게 푼다</u>로 정의하고있음.
 - 무식하게 푼다 = <u>가능한 모든 경우의 수</u>를 일일이 나열하면서 답을 찾는다 = `완전 탐색`
 
 ## 문제접근
