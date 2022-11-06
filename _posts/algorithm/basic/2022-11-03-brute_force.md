@@ -1,6 +1,6 @@
 ---
-title: "브루트 포스"
-excerpt: "Brute Force"
+title: "브루트 포스 알고리즘"
+excerpt: "Brute Force Algorithm"
 last_modified_at : 22.11.03
 
 categories:
